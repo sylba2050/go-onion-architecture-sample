@@ -1,12 +1,12 @@
 package interactor
 
 import (
-	"github.com/nanamen/go-echo-rest-sample/domain/repository"
-	"github.com/nanamen/go-echo-rest-sample/domain/service"
-	"github.com/nanamen/go-echo-rest-sample/infrastructure/persistence/datastore"
-	"github.com/nanamen/go-echo-rest-sample/presenter/http/handler"
-	"github.com/nanamen/go-echo-rest-sample/usecase"
 	"github.com/jinzhu/gorm"
+	"github.com/sylba2050/go-onion-architecture-sample/domain/repository"
+	"github.com/sylba2050/go-onion-architecture-sample/domain/service"
+	"github.com/sylba2050/go-onion-architecture-sample/infrastructure/persistence/datastore"
+	"github.com/sylba2050/go-onion-architecture-sample/presenter/http/handler"
+	"github.com/sylba2050/go-onion-architecture-sample/usecase"
 )
 
 // Interactor interfase Intractorは安易DIコンテナとしての役割を持つ.

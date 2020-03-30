@@ -4,12 +4,12 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/nanamen/go-echo-rest-sample/conf"
-	"github.com/nanamen/go-echo-rest-sample/interactor"
-	"github.com/nanamen/go-echo-rest-sample/presenter/http/middleware"
-	"github.com/nanamen/go-echo-rest-sample/presenter/http/router"
 	_ "github.com/jinzhu/gorm"
 	"github.com/labstack/echo"
+	"github.com/sylba2050/go-onion-architecture-sample/conf"
+	"github.com/sylba2050/go-onion-architecture-sample/interactor"
+	"github.com/sylba2050/go-onion-architecture-sample/presenter/http/middleware"
+	"github.com/sylba2050/go-onion-architecture-sample/presenter/http/router"
 )
 
 //Dockerコンテナで実行する時(production.confをもとに起動するとき)は起動時に-serverを指定

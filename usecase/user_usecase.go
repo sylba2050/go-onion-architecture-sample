@@ -3,8 +3,8 @@ package usecase
 import (
 	"context"
 
-	"github.com/nanamen/go-echo-rest-sample/domain/model"
-	"github.com/nanamen/go-echo-rest-sample/domain/repository"
+	"github.com/sylba2050/go-onion-architecture-sample/domain/model"
+	"github.com/sylba2050/go-onion-architecture-sample/domain/repository"
 )
 
 // UserUseCase interfase

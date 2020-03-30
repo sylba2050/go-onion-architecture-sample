@@ -1,8 +1,8 @@
 package router
 
 import (
-	"github.com/nanamen/go-echo-rest-sample/presenter/http/handler"
 	"github.com/labstack/echo"
+	"github.com/sylba2050/go-onion-architecture-sample/presenter/http/handler"
 )
 
 // NewRouter Routerの設定を行います.

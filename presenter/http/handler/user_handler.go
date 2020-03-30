@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/nanamen/go-echo-rest-sample/domain/model"
-	"github.com/nanamen/go-echo-rest-sample/usecase"
 	"github.com/labstack/echo"
+	"github.com/sylba2050/go-onion-architecture-sample/domain/model"
+	"github.com/sylba2050/go-onion-architecture-sample/usecase"
 )
 
 // UserHandler interface

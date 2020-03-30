@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nanamen/go-echo-rest-sample/domain/model"
 	"github.com/labstack/echo"
 	"github.com/stretchr/testify/assert"
+	"github.com/sylba2050/go-onion-architecture-sample/domain/model"
 )
 
 // TODO:mock生成を共通化する

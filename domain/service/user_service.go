@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"github.com/nanamen/go-echo-rest-sample/domain/repository"
+	"github.com/sylba2050/go-onion-architecture-sample/domain/repository"
 )
 
 // UserService ドメインサービスとして利用し,複数のエンティティやレポジトリを扱う処理をここで実装する.

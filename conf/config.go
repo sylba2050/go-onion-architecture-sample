@@ -28,7 +28,7 @@ var Current *Config
 func NewConfig(runServer bool) {
 	var C Config
 	Current = &C
-	viper.AddConfigPath("$GOPATH/src/github.com/nanamen/go-echo-rest-sample/conf/")
+	viper.AddConfigPath("$GOPATH/src/github.com/sylba2050/go-onion-architecture-sample/conf/")
 	viper.SetConfigType("yml")
 
 	if runServer {
